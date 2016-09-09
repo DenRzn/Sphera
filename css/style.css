@@ -118,15 +118,30 @@ body, html {
 .regBlock {
     height: 290px;
     width: 710px;
-    margin-left: 190px;
+    margin: 0 auto;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
-.selection {
-padding-top: 14;
-}
-
-.selection span {
+.selectionBlock {
+  display: inline-block;
+  margin: 0 auto;
   font-size: 13px;
   font-family: 'SFUIDisplay-Regular';
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+.selectionBlock div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.selectionBlock input {
+  margin-right: 10px;
 }
