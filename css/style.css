@@ -74,18 +74,6 @@ body, html {
 		align-items: center;
 }
 
-.regWrap {
-    min-width: 1100px;
-    height: 1110px;
-    background: #eff2f6;
-}
-
-.reg {
-    width: 1100px;
-    height: 100%;
-    margin: 0 auto;
-}
-
 .breads span {
     font-size: 11px;
     font-family: 'SFUIDisplay-Regular';
@@ -99,6 +87,7 @@ body, html {
     font-size: 20px;
     font-family: 'SFUIDisplay-Bold';
 }
+
 .navBlock {
 	height: 50px;
 	display: flex;
@@ -106,9 +95,38 @@ body, html {
 	flex-direction: column;
 	padding-left: 12px;
 }
+
 .under {
 	display: inline-block;
 	height: 13px;
 	border-bottom: solid 1px #d3d3d3;
+}
 
+.regWrap {
+    min-width: 1100px;
+    height: 1110px;
+    background: #eff2f6;
+}
+
+.reg {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.regBlock {
+    height: 290px;
+    width: 710px;
+    margin-left: 190px;
+    background-color: #ffffff;
+}
+
+.selection {
+padding-top: 14;
+}
+
+.selection span {
+  font-size: 13px;
+  font-family: 'SFUIDisplay-Regular';
 }
