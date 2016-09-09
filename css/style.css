@@ -134,7 +134,10 @@ body, html {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 500px;
+  width: 540px;
+}
+.selectionBlock > div {
+  width: 290px;
 }
 .selectionBlock div {
   display: flex;
@@ -144,4 +147,19 @@ body, html {
 }
 .selectionBlock input {
   margin-right: 10px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.trans {
+  width: 100px;
+  height: 100px;
+  transition: all .5s;
+  background-color: blue;
+}
+.trans:hover {
+  background-color: red;
+  height: 1000px;
+  transform: rotate(45de);
 }
