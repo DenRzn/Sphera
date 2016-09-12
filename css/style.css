@@ -122,11 +122,19 @@ body, html {
     background-color: #ffffff;
 }
 
-.selection {
-padding-top: 14;
+.selectionFaceBlock {
+  height: 12px;
+  width: 270px;
+  margin: 0 auto;
+  padding-top: 16px;
+
 }
 
-.selection span {
+.selectionFace span {
   font-size: 13px;
   font-family: 'SFUIDisplay-Regular';
+}
+.faceFiz  {
+  display: flex;
+
 }
