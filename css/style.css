@@ -130,11 +130,6 @@ body, html {
 
 }
 
-.selectionFace span {
-  font-size: 13px;
-  font-family: 'SFUIDisplay-Regular';
-}
-.faceFiz  {
-  display: flex;
-
+.reg span {
+  white-space: nowrap;
 }

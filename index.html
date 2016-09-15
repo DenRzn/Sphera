@@ -29,12 +29,24 @@
     <div class="reg">
       <div class="regBlock">
         <div class="selectionFaceBlock">
-          <div class="selectionFace">
-            <form class="faceFiz">
-              <span><input type="radio" name="fizYour" value="fiz"> Физическое лицо
-              <input type="radio" name="fizYour" value="your"> Юридическое лицо</span>
-            </form>
-          </div>
+          <form class="selectionFace">
+            <div class="faceFiz">
+              <input type="radio" name="fizYour" value="fiz"> Физическое лицо
+              <input type="radio" name="fizYour" value="your"> Юридическое лицо
+            </div>
+            <div class="regData">
+              <span>Имя</span><input type="text" name="name" value="">
+              <span>E-mail:</span><input type="text" name="e-mail" value="">
+              <span>Пароль:</span><input type="text" name="pass" value="">
+              <span>Пароль еще раз:</span><input type="text" name="pass=" value="">
+            </div>
+            <div class="confirm">
+              <input type="radio" name="name" value=""> Подтверждаю, что я согласен с условиями политики конфедециальности
+            </div>
+            <div class="yesReg">
+              <input type="button" name="name" value="Зарегистрироваться">
+            </div>
+          </form>
         </div>
       </div>
     </div>
